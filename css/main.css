@@ -1,0 +1,522 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  width: 100%;
+  min-height: 100vh;
+} 
+
+/* Set contents position */
+.mwrapper section {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-top: 3%;
+}
+
+/*** SVG for logo and icon Start ***************/
+.logo-svg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+
+  width: 680px;
+  height: 224px;
+}
+
+.logotype {
+  fill: goldenrod;
+}
+
+.logo-icon_circle {
+  fill: red;
+}
+
+.logo-icon_spoon {
+  fill: goldenrod;
+}
+
+.logo-icon_corona {
+  fill: green;
+}
+/*** SVG for logo and icon End ***************/
+
+/* Decorate the brand name */
+.mwrapper h1 {
+  font-family: 'Parisienne', cursive;
+
+  color: goldenrod;
+  font-size: 6em;
+  text-shadow: 3px 3px rgb(4, 56, 56);
+
+  margin-top: 100px;
+}
+
+.mwrapper_hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+ 
+  background-color: black;
+  opacity: 50%;
+
+  color: white;
+}
+
+.mwrapper_hero h4{
+  margin-top: 30px;
+
+  background-color: black;
+  opacity: 70%;
+
+  font-style: italic;
+  font-size: 1.5em;
+  color: white;
+}
+
+
+/* Decorate description of the brand */
+.mwrapper p {
+  text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: .5em;
+
+  background-color: black;
+  opacity: 70%;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: white;
+  line-height: 200%; 
+}
+
+.mwrapper h3{
+  margin-bottom: 0; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 95%;
+
+  background-color:  rgb(59, 59, 59);
+  opacity: 70%;
+
+  border: 1px solid rgb(59, 59, 59);
+
+  font-size: 1em;
+  color: white;
+}
+
+.flex_wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 95%;
+  height: auto;
+
+  border: 1px solid rgb(59, 59, 59);
+}
+
+.flex_wrap_item {
+  display: block;
+}
+
+.flex_wrap_item img {
+  vertical-align: top;
+
+  /* Specify the image size */
+  width: 15ch; 
+  height: 15ch;
+
+  /* Maintain image aspect ratio when resizing browser windows */
+  object-fit: cover;
+
+  /* Circle the face image and surround gray colored border */
+  border: 3px solid rgb(233, 233, 233);
+  border-radius: 50%;
+}
+
+.flex_wrap_item figcaption {
+  padding-top: 10px;
+  padding-bottom: 5px;
+
+  color: burlywood;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: .7em;
+}
+
+/******************************************/
+.flex_wrap2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 95%;
+  height: auto;
+}
+
+.flex_wrap_item2 img {
+  vertical-align: bottom;
+  /* Specify the face image size */
+  width: 20ch; 
+  height: 25ch;
+
+  /* Maintain image aspect ratio when resizing browser windows */
+  object-fit: cover;
+
+  /* Circle the face image and surround gray colored border */
+  border: 3px solid white;
+  border-radius: 20%;
+}
+
+.flex_wrap_item2 figcaption {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: .7em;
+}
+
+.flex_wrap_item2 blockquote{
+  max-width: 65vw;
+}
+
+.flex_wrap2 p{
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 95%;
+  height: auto;
+
+  background-color: white;
+  color: black;
+  text-align: left;
+
+  font-size: .9em;
+  line-height: 150%;
+}
+
+.flex_wrap_item2 {
+  display: block;
+  margin-top: 30px;
+}
+
+.flex_wrap_item2 p{
+  display: block;
+  margin-top: 30px;
+
+  background-color: gray;
+  color: black;
+  text-align: left;
+
+  font-size: .9em;
+}
+
+/* Tablet Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .wrapper {
+    width: 100%;
+    min-height: 70vh;
+  } 
+  
+  /* Decorate the brand name */
+  .mwrapper h1 {
+    font-size: 5em;
+    text-shadow: 2.5px 2.5px rgb(4, 56, 56);
+  
+    margin-top: 90px;
+  }
+  
+  /*** SVG for logo and icon Start ***************/
+  .logo-svg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+    width: 510px;
+    height: 168px;
+  }
+
+  .logotype {
+    fill: rgb(151, 191, 224);
+    stroke-width: 1px;
+    stroke: blueviolet;
+  }
+
+  .logo-icon_circle {
+    fill: blue;
+    stroke: skyblue;
+  }
+
+  .logo-icon_spoon {
+    fill: rgb(151, 191, 224);
+  }
+
+  .logo-icon_corona {
+    fill: rgb(151, 191, 224);
+  }
+
+  /*** SVG for logo and icon End ***************/
+
+  .mwrapper_hero {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .mwrapper_hero h4{
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+    
+  /* Decorate description of the brand */
+  .mwrapper p {
+    margin-top: 50px;
+    padding: .5em;
+
+    font-size: .8em;
+    line-height: 200%; 
+  }
+  
+  .mwrapper h3 {
+    font-size: .8em;
+  }
+  
+  .flex_wrap_item img {
+    /* Specify the image size */
+    width: 10ch; 
+    height: 10ch;
+
+    /* Circle the face image and surround gray colored border */
+    border: 2.5px solid rgb(233, 233, 233);
+  }
+  
+  .flex_wrap_item figcaption {
+    font-size: .6em;
+  }
+  
+  .flex_wrap_item2 img {
+    /* Specify the face image size */
+    width: 18ch; 
+    height: 23ch;
+  }
+  
+  .flex_wrap_item2 figcaption {
+    font-size: .6em;
+  }
+  
+  .flex_wrap_item2 blockquote {
+    max-width: 60vw;
+  }
+
+  .flex_wrap_item2 blockquote footer {
+    font-size: .6em;
+  }
+  
+  .flex_wrap2 p{
+    margin: 5px;
+
+    font-size: .7em;
+    line-height: 150%;
+    
+  }
+}
+
+/* Mobile Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+  .wrapper {
+    min-height: 50vh;
+  } 
+  
+  /* Set contents position */
+  .mwrapper section {
+    margin-top: 3%;
+  }
+  
+  /*** SVG for logo and icon Start ***************/
+  .logo-svg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+    width: 340px;
+    height: 112px;
+  }
+
+  .logotype {
+    fill: rgb(206, 214, 194);
+    stroke-width: 1px;
+    stroke: orange;
+  }
+
+  .logo-icon_circle {
+    fill: red;
+    stroke: orange;
+  }
+
+  .logo-icon_spoon {
+    fill: rgb(206, 214, 194);
+  }
+
+  .logo-icon_corona {
+    fill: rgb(206, 214, 194);
+  }
+
+  /*** SVG for logo and icon End ***************/
+
+  /* Decorate the brand name */
+  .mwrapper h1 {
+    font-family: 'Parisienne', cursive;
+  
+    font-size: 3em;
+    text-shadow: 2px 2px rgb(4, 56, 56);
+  
+    margin-top: 70px;
+  }
+
+  .mwrapper_hero h4{
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    font-style: italic;
+    font-size: 1em;
+  }
+  
+  .mwrapper_hero {
+    font-size: .8em;
+  }
+
+  /* Decorate description of the brand */
+  .mwrapper p {
+    text-align: center;
+  
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: .5em;
+
+    font-size: .8em;
+
+  }
+  
+  .mwrapper h3 {
+    margin-bottom: 0; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 95%;
+  
+    background-color:  rgb(59, 59, 59);
+    opacity: 70%;
+  
+    border: 1px solid rgb(59, 59, 59);
+  
+    font-size: .8em;
+    color: white;
+  }
+  
+  .flex_wrap {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .flex_wrap_item img {
+    /* Specify the image size */
+    width: 15ch; 
+    height: 15ch;
+  }
+  
+  .flex_wrap_item figcaption {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  
+    color: black;
+    font-weight: normal;
+    font-size: .6em;
+  }
+  
+  /******************************************/
+  .flex_wrap2 {
+    margin-top: 0;
+    padding-bottom: 5px;
+    width: 95%;
+    height: auto;
+  }
+  
+  .flex_wrap2 p{
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 95%;
+    height: auto;
+  
+    background-color: white;
+    color: black;
+    text-align: left;
+  
+    font-size: .7em;
+    line-height: 150%;
+  }
+
+  
+  .flex_wrap_item2 img {
+    vertical-align: bottom;
+
+    /* Specify the face image size */
+    width: 16ch; 
+    height: 20ch;
+  }
+  
+  .flex_wrap_item2 figcaption {
+    color: black;
+    font-size: .7em;
+  }
+  
+  .flex_wrap_item2 blockquote{
+    max-width: 25ch;
+  }
+
+  .flex_wrap_item2 {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .flex_wrap_item2 p{
+    display: block;
+    margin-top: 10px;
+  
+    background-color: gray;
+    color: black;
+    text-align: left;
+  
+    font-size: .7em;
+  }
+}
