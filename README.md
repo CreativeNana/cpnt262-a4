@@ -6,6 +6,6 @@
 ### * Attributions
 ### * Summary of the location and behaviour of the graphic 
 #### 1. Tools: Figma, Inkscape, Free SVG site (https://lovesvg.com/)
-#### 2. Color Scheme: Using Media Queries for three different sizes
+#### 2. Color Scheme: Using Media Queries for three different sizes and toggles
 #### 3. APPLICATION PART: Brand Name, Icon and Corona Logo in Hero Area
 
