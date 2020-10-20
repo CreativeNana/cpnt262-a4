@@ -22,7 +22,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 80px;
 
   width: 680px;
   height: 224px;
@@ -238,7 +238,7 @@
 }
 
 /* Tablet Portrait and Landscape */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .wrapper {
     width: 100%;
     min-height: 70vh;
@@ -272,11 +272,14 @@
 
   .logo-icon_circle {
     fill: blue;
-    stroke: skyblue;
+    stroke-width: 1px;
+    stroke: blueviolet;
   }
 
   .logo-icon_spoon {
     fill: rgb(151, 191, 224);
+    stroke-width: 1px;
+    stroke: blueviolet;
   }
 
   .logo-icon_corona {
@@ -380,11 +383,14 @@
 
   .logo-icon_circle {
     fill: red;
+    stroke-width: 1px;
     stroke: orange;
   }
 
   .logo-icon_spoon {
     fill: rgb(206, 214, 194);
+    stroke-width: 1px;
+    stroke: orange;
   }
 
   .logo-icon_corona {

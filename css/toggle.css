@@ -1,0 +1,168 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  width: 100%;
+  min-height: 100vh;
+} 
+
+/* Set contents position */
+.mwrapper section {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-top: 3%;
+  height: 100vh;
+}
+
+/*** SVG for logo and icon Start ***************/
+.logo-svg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+
+  width: 680px;
+  height: 224px;
+}
+
+.logotype {
+  fill: goldenrod;
+}
+
+.logo-icon_circle {
+  fill: red;
+}
+
+.logo-icon_spoon {
+  fill: goldenrod;
+}
+
+.logo-icon_corona {
+  fill: green;
+}
+
+/* SVG Toogle */
+.tlogotype {
+  fill: rgb(151, 191, 224);
+  stroke-width: 1px;
+  stroke: blueviolet;
+}
+  
+.tlogo-icon_circle {
+  fill: blue;
+  stroke-width: 1px;
+  stroke: blueviolet;
+}
+  
+.tlogo-icon_spoon {
+  fill: rgb(151, 191, 224);
+  stroke-width: 1px;
+  stroke: blueviolet;
+}
+  
+.tlogo-icon_corona {
+  fill: rgb(151, 191, 224);
+}
+
+/*** SVG for logo and icon End ***************/
+
+
+/* Submit button */
+.c_button {
+  background-color: goldenrod;
+  border-radius: 5%;
+  border: 1px solid rgb(2, 27, 27);
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+/* Tablet Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .wrapper {
+    width: 100%;
+  } 
+  
+/* Set contents position */
+.mwrapper section {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-top: 3%;
+}
+
+
+  /*** SVG for logo and icon Start ***************/
+  .logo-svg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+    width: 510px;
+    height: 168px;
+  }
+  /*** SVG for logo and icon End ***************/
+
+
+
+  /* Submit button */
+  .c_button {
+    background-color: goldenrod;
+    border-radius: 5%;
+    border: 1px solid rgb(2, 27, 27);
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .mwrapper_hero {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  }
+  
+}
+
+/* Mobile Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+  .wrapper {
+    min-height: 50vh;
+  } 
+  
+  /* Set contents position */
+  .mwrapper section {
+    margin-top: 3%;
+  }
+  
+  /*** SVG for logo and icon Start ***************/
+  .logo-svg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+    width: 340px;
+    height: 112px;
+  }
+
+  /*** SVG for logo and icon End ***************/
+
+ 
+}
