@@ -166,76 +166,6 @@
   font-size: .7em;
 }
 
-/******************************************/
-.flex_wrap2 {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-
-  margin-top: 0;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  width: 95%;
-  height: auto;
-}
-
-.flex_wrap_item2 img {
-  vertical-align: bottom;
-  /* Specify the face image size */
-  width: 20ch; 
-  height: 25ch;
-
-  /* Maintain image aspect ratio when resizing browser windows */
-  object-fit: cover;
-
-  /* Circle the face image and surround gray colored border */
-  border: 3px solid white;
-  border-radius: 20%;
-}
-
-.flex_wrap_item2 figcaption {
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  font-style: italic;
-  font-size: .7em;
-}
-
-.flex_wrap_item2 blockquote{
-  max-width: 65vw;
-}
-
-.flex_wrap2 p{
-  margin-top: 0;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  width: 95%;
-  height: auto;
-
-  background-color: white;
-  color: black;
-  text-align: left;
-
-  font-size: .9em;
-  line-height: 150%;
-}
-
-.flex_wrap_item2 {
-  display: block;
-  margin-top: 30px;
-}
-
-.flex_wrap_item2 p{
-  display: block;
-  margin-top: 30px;
-
-  background-color: gray;
-  color: black;
-  text-align: left;
-
-  font-size: .9em;
-}
 
 /* Tablet Portrait and Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -325,31 +255,6 @@
     font-size: .6em;
   }
   
-  .flex_wrap_item2 img {
-    /* Specify the face image size */
-    width: 18ch; 
-    height: 23ch;
-  }
-  
-  .flex_wrap_item2 figcaption {
-    font-size: .6em;
-  }
-  
-  .flex_wrap_item2 blockquote {
-    max-width: 60vw;
-  }
-
-  .flex_wrap_item2 blockquote footer {
-    font-size: .6em;
-  }
-  
-  .flex_wrap2 p{
-    margin: 5px;
-
-    font-size: .7em;
-    line-height: 150%;
-    
-  }
 }
 
 /* Mobile Portrait and Landscape */
@@ -469,60 +374,5 @@
     font-size: .6em;
   }
   
-  /******************************************/
-  .flex_wrap2 {
-    margin-top: 0;
-    padding-bottom: 5px;
-    width: 95%;
-    height: auto;
-  }
   
-  .flex_wrap2 p{
-    margin-top: 0;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    width: 95%;
-    height: auto;
-  
-    background-color: white;
-    color: black;
-    text-align: left;
-  
-    font-size: .7em;
-    line-height: 150%;
-  }
-
-  
-  .flex_wrap_item2 img {
-    vertical-align: bottom;
-
-    /* Specify the face image size */
-    width: 16ch; 
-    height: 20ch;
-  }
-  
-  .flex_wrap_item2 figcaption {
-    color: black;
-    font-size: .7em;
-  }
-  
-  .flex_wrap_item2 blockquote{
-    max-width: 25ch;
-  }
-
-  .flex_wrap_item2 {
-    display: block;
-    margin-top: 10px;
-  }
-  
-  .flex_wrap_item2 p{
-    display: block;
-    margin-top: 10px;
-  
-    background-color: gray;
-    color: black;
-    text-align: left;
-  
-    font-size: .7em;
-  }
 }
