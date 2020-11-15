@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title><%= title %></title>
+    
+    <!-- Link to the basic CSS files --> 
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <!-- Link to the external CSS files: FontAwesome, Google fonts --> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Parisienne&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+ 
+    <!-- Javascript link -->
+    <script type="module" src="js/client.js"></script>
+  </head>
+  
+  <body class=<%= current %>>
+    <div class="hero-image">
+      <!-- Navigation -->
+      <%- include("../partials/nav"); %>
+
+      <div class="mwrapper">
+        <!-- Header -->
+        <%- include("../partials/header"); %>
+
+        <section class="gallery">
+        <!-- Gallery goes here -->
+        </section>  
+      </div>
+
+      <!--- footer ------------------------------------------------------------>
+      <%- include("../partials/footer"); %>
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title><%= title %></title>
+    
+    <!-- Link to the basic CSS files --> 
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/subscribe.css">
+
+    <!-- Link to the external CSS files: FontAwesome, Google fonts --> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Parisienne&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  </head>
+
+  <body class=<%= current %>>
+    <div class="hero-image">
+      <!-- Navigation -->
+      <%- include("../partials/nav"); %>
+
+      <div class="mwrapper">
+        <!-- Header -->
+        <%- include("../partials/header"); %>
+
+        <div class="form_wrap">
+          <form action="" method="post">
+            <fieldset>
+              <legend>Subscribe to the newsletter for more benefits.</legend> 
+
+              <div class="form-group">
+                <label for="name">Name <h>*</h>:</label>
+                <input type="text" id="name"  class="input-control" name="email" placeholder="Please input your name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail <h>*</h>:</label>
+                <input type="text" id="email"  class="input-control" name="email" placeholder="Please enter your E-mail address" required>
+              </div>
+      
+              <div class="form-group">
+                <label for="password">Password <h>*</h>:</label>
+                <input type="text" id="password"  class="input-control" name="password" placeholder="Please enter your password" required>
+              </div> 
+
+              <ul class="check-box">
+                <li><input type="checkbox" id="checkbox" name="checkbox" value="yes">
+                <label for="promotion">Yes, I would like to receive promotional emails</label>
+                </li>
+              </ul>
+
+              <div>
+                <button type="submit" id="Subscribe" class="c_button">Subscribe</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <!--- footer ------------------------------------------------------------>
+      <%- include("../partials/footer"); %>
+      
+    </div>
+  </body>
+</html>

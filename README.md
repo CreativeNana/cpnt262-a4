@@ -1,12 +1,32 @@
-## * CPNT-201-A: Web Design Tools & Techniques
-### * Assignment 3 - SVG Graphic
-#### * Name: Na Young Lee
-#### * github repo: https://github.com/CreativeNana/cpnt201-a3
-#### * GH Pages website: https://creativenana.github.io/cpnt201-a3/
-#### * Attributions
-* CSS-TRICK: blockquote(link)https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/ and flex(link)https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background
-#### * Summary of the location and behaviour of the graphic 
-  1. Tools: Figma, Inkscape, Free SVG site (https://lovesvg.com/)
-  2. Color Scheme: Using Media Queries for three different sizes and toggles
-  3. APPLICATION PART: Brand Name, Icon and Corona Logo in Hero Area
-  4. CSS File Cleanup
+## [Course title: CPNT-262-A: Web Client & Server Prog.]
+
+### * Assignment 3: Deployed Static Express Website 
+### * Author name: Nana
+
+### * Links to:
+  + [GH repo](https://github.com/CreativeNana/cpnt262-a3)
+  + [GH Pages](https://creativenana.github.io/cpnt262-a3/public/index.html)
+  + [HEROKU App](https://nana-cpnt262-a3.herokuapp.com/)
+
+### * Comments: 
+  + Install 
+    - NPM(Node package management)
+    - Express(web framework)
+    - dotenv library
+
+  + Use middleware functions 
+    - app.use for providing middleware
+    - express.static for using static files in Express
+
+  + Set a PORT
+    - a specific Port within the .env file
+    - 8080 as a default port in server.js
+
+  + Control uploading files 
+    - Exclude uploading node modules and environment variables(.env file) using .gitignore
+
+  + Connect between Heroku App and GitHub Repo
+   
+### * Attributions: 
+  + acidtone: [Assignment2 Starter Code](https://github.com/sait-wbdv/assessments/tree/master/cpnt262/)assignment-2/starter
+  + NPMJS.com: [Dotenv](https://www.npmjs.com/package/dotenv)

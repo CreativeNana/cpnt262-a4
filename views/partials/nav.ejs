@@ -1,0 +1,33 @@
+<!-- Primary global navigation menus -->
+<nav class="nav">
+  <a class="logo" href="/"><h1><i class="fa fa-cutlery" aria-hidden="true"></i>Delicacy</h1></a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+  <ul class="menu"> 
+    <li><a href="/">Home</a></li>
+    <li><a href="/gallery">Gallery</a></li>
+    <li><a href="/subscribe">Subscribe</a></li>
+  </ul>
+</nav>
+
+<!-- Show current page as active in navigation menu -->
+<script>
+  let cUrl = window.location.href.toLowerCase().split("?");
+  let cPage = cUrl[0];
+  let IsHome = cPage.split("/").splice(-1);
+  
+  const menuList = document.querySelectorAll('.menu>li>a');
+  
+  menuList.forEach(function(menuItem) {
+    const aHerf = menuItem.href.toLowerCase().split("/").splice(-1);
+
+    if (cPage.indexOf(aHerf) > 0 || (IsHome.toString().length == 0 && aHerf.toString().length == 0)) {
+        menuItem.className += ' active';
+    }
+    else{
+      menuItem.className = menuItem.className.replace('active', '');
+    }
+
+  });
+</script>

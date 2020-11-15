@@ -1,0 +1,32 @@
+{
+  "name": "cpnt262-a4",
+  "version": "1.0.0",
+  "description": "This is a assignment for 262-a4",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreativeNana/cpnt262-a4.git"
+  },
+  "keywords": [
+    "express",
+    "gallery",
+    "ejs",
+    "json"
+  ],
+  "author": "Nana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CreativeNana/cpnt262-a4/issues"
+  },
+  "homepage": "https://github.com/CreativeNana/cpnt262-a4#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1"
+  }
+}
