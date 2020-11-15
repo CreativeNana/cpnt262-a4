@@ -8,14 +8,13 @@
   + [HEROKU App](https://nana-cpnt262-a4.herokuapp.com/)
 
 ### * Comments: 
-  1. Project environment setup
-    1. package and module install 
+1. Project environment setup
+  + package and module install 
       - NPM(Node package management)
       - Express(web framework)
       - dotenv library
       - ejs module
-
-    2. Directory setup
+  + Directory setup
       - Public: original html files, images & data sources
       - Views: interlink data to view engine files and modularize common files
       - Other setup files
@@ -28,7 +27,7 @@
 
 
   3. View Engine setup 
-    1. Server.js
+    + Server.js
       - Use middleware functions: express.static, express.urlencoded
       - Create 3 HTML GET endpoints and Gallery virtual JSON API
       - Return 404 errors when a file cannot be found
