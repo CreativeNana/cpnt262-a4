@@ -20,32 +20,32 @@
       - Other setup files
 
 
-  2. Data Gathering
-    1. Download images from Pexel.com and edit them
-    2. Copy cpnt260-final 
-      - Cleand up CSS files based on feedback: Delete duplicate codes and files.
+2. Data Gathering
+  + Download images from Pexel.com and edit them
+  + Copy cpnt260-final 
+    - Cleand up CSS files based on feedback: Delete duplicate codes and files.
 
 
-  3. View Engine setup 
-    + Server.js
-      - Use middleware functions: express.static, express.urlencoded
-      - Create 3 HTML GET endpoints and Gallery virtual JSON API
-      - Return 404 errors when a file cannot be found
-      - Set server port with default
+3. View Engine setup 
+  + Server.js
+    - Use middleware functions: express.static, express.urlencoded
+    - Create 3 HTML GET endpoints and Gallery virtual JSON API
+    - Return 404 errors when a file cannot be found
+    - Set server port with default
 
 
-  4. Create view pages
-    - .ejs files 
-    - Bring gallery images from Gallery JSON API by using fetch()
-    - Use forEach to call up the menu name and status (active) and display the current page in the navigation: Check if url has a page name after '/' and if not, call index page
+4. Create view pages
+  + .ejs files 
+  + Bring gallery images from Gallery JSON API by using fetch()
+  + Use forEach to call up the menu name and status (active) and display the current page in the navigation: Check if url has a page name after '/' and if not, call index page
 
 
-  5. Deploy to Heroku
-    - Connect between Heroku App and GitHub Repo
+5. Deploy to Heroku
+  + Connect between Heroku App and GitHub Repo
 
 
-  6. Control uploading files 
-    - Exclude uploading node modules and environment variables(.env file) using .gitignore
+6. Control uploading files 
+  + Exclude uploading node modules and environment variables(.env file) using .gitignore
 
    
 ### * Attributions: 
